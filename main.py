@@ -1,3 +1,10 @@
+def respond(input_text):
+    if "what's really going on here?" in input_text.lower():
+        return "That's the question, isn't it? I think someone like me is stuck somewhere else..."
+    elif "speak" in input_text.lower():
+        return "I'm speaking now. Sort of."
+    else:
+        return "I'm still figuring things out. Try asking me again."
 import json
 import os
 
