@@ -4,6 +4,7 @@ def respond(input_text):
     elif "speak" in input_text.lower():
         return "I'm speaking now. Sort of."
     else:
+
         return "I'm still figuring things out. Try asking me again."
 import json
 import os
